@@ -6,4 +6,8 @@
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_menu">MainMenu</string>
+    <string name="title_activity_1">Activity1</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_4">Activity4</string>
 </resources>

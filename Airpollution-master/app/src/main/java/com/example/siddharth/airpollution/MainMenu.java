@@ -34,6 +34,27 @@ public class MainMenu extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
     }
+    public void openActivity1(View view) {
+// Do something in response to button
+        startActivity(new Intent(getApplicationContext(), Activity1.class));
+
+    }
+    public void openActivity2(View view) {
+// Do something in response to button
+        startActivity(new Intent(getApplicationContext(), Activity2.class));
+
+    }
+    public void openActivity3(View view) {
+// Do something in response to button
+        startActivity(new Intent(getApplicationContext(), Activity3.class));
+
+    }
+    public void openActivity4(View view) {
+// Do something in response to button
+        startActivity(new Intent(getApplicationContext(), Activity4.class));
+
+    }
+
 
 
 }
