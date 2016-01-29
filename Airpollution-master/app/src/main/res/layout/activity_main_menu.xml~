@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/bLogin_Register"
+        android:text="Login/Register"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:onClick="openMainActivity"
+        android:layout_column="21"
+        android:layout_gravity="right" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="362dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b1_Option"
+                android:text="Option 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity1"
+                android:layout_weight="1"
+                android:layout_gravity="left" />
+
+            <Button
+                android:id="@+id/b2_Option"
+                android:text="Option 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity2"
+                android:layout_weight="1"
+                android:layout_gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b3_Option"
+                android:text="Option 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:onClick="openActivity3"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/b4_Option"
+                android:text="Option 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openActivity4"
+                android:layout_weight="1"
+                android:layout_gravity="right" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
